@@ -88,8 +88,8 @@
         <!--OVERVIEW ITEMS-->
         <div class="row">
             <div class="col-md-6 col-lg-4">
-                <img src="img/karen.jpg" alt="">
-                <h4>Karen Ireland</h4>
+                <img src="img/polly.jpg" alt="">
+                <h4>Polly Freeman</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
             </div><!--ITEM END-->
 
@@ -118,7 +118,7 @@
             </div><!--ITEM END-->
 
             <div class="col-md-6 col-lg-4">
-                <img src="img/o6.png" alt="">
+                <img src="img/sophie.png" alt="">
                 <h4>Sophie Taylor</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
             </div><!--ITEM END-->
@@ -140,7 +140,7 @@
                 <p>Enter your password here:</p>
                 <input type="text" value="" name="PASSW" id="passw" placeholder="Password" required>
                 <input type="submit" value="Enter" name="enter" id="botonEnter" class="btn btn-inverse" onclick="persona()">
-                <p id="respuesta">HOLAAA</p>
+                <p id="respuesta"></p>
                 <script>
                 function persona(){
                       var contrasenia,nombre;
@@ -150,14 +150,15 @@
                       if(contrasenia == 'hola'){
                            nombre = 'Sarah Pook';
                      }
-                  //    else if (contrasenia == 'adios'){
-                  //          nombre = 'Javi';
-                  //    }
+                     //Para Pook
+                     else if (contrasenia == 'turron'){
+                           nombre = '';
+                     }
                      else {
                            nombre = 'La contraseña no es correcta';
                      }
                      document.getElementById("respuesta").style.color = "black";
-                     document.getElementById("respuesta").style.fontSize = "25px";
+                     document.getElementById("respuesta").style.fontSize = "30px";
                      document.getElementById("respuesta").innerHTML = nombre;
                 }
                 </script>
