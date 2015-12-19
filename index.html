@@ -90,37 +90,37 @@
             <div class="col-md-6 col-lg-4">
                 <img src="img/polly.jpg" alt="">
                 <h4>Polly Freeman</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                <p>The dark horse whose got all loved up!</p>
             </div><!--ITEM END-->
 
             <div class="col-md-6 col-lg-4">
                 <img src="img/nikki.jpg" alt="">
                 <h4>Nikki Smith</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                <p>The one who lives with a husky voice!</p>
             </div><!--ITEM END-->
 
             <div class="col-md-6 col-lg-4">
                 <img src="img/pook.jpg" alt="">
                 <h4>Sara Pook</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                <p>The girl whose friendship list never stops growing!</p>
             </div><!--ITEM END-->
 
             <div class="col-md-6 col-lg-4">
                 <img src="img/kat.jpg" alt="">
                 <h4>Kat Gould</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                <p>The one who makes her dreams a reality!</p>
             </div><!--ITEM END-->
 
             <div class="col-md-6 col-lg-4">
                 <img src="img/ros.jpg" alt="">
                 <h4>Ros Buxton-Smith</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                <p>The loca who always continues to suprise with locaness!</p>
             </div><!--ITEM END-->
 
             <div class="col-md-6 col-lg-4">
-                <img src="img/sophie.png" alt="">
+                <img src="img/sophie.jpg" alt="">
                 <h4>Sophie Taylor</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                <p>The traveller whose pictures will always make you jealous!</p>
             </div><!--ITEM END-->
         </div><!--OVERVIEW ITEMS END-->
     </div><!--OVERVIEW SECTION END-->
@@ -146,19 +146,36 @@
                       var contrasenia,nombre;
 
                       contrasenia=document.getElementById("passw").value;
-
-                      if(contrasenia == 'hola'){
+                      //Para Nikki
+                      if(contrasenia == 'arroz'){
                            nombre = 'Sarah Pook';
                      }
                      //Para Pook
-                     else if (contrasenia == 'turron'){
-                           nombre = '';
+                     else if (contrasenia == 'mantecado'){
+                           nombre = 'Sophie Taylor';
                      }
+                     //Para Polly
+                     else if(contrasenia == 'turron'){
+                           nombre = 'Kat Gould';
+                     }
+                     //Para Sophie
+                     else if(contrasenia == 'villancico'){
+                           nombre = 'Ros Buxton-Smith';
+                     }
+                     //Para Ros
+                     else if(contrasenia == 'navidad'){
+                           nombre = 'Polly Freeman';
+                     }
+                     //Para Kat
+                     else if(contrasenia == 'mazapan'){
+                           nombre = 'Nikki Smith';
+                     }
+
                      else {
-                           nombre = 'La contraseña no es correcta';
+                           nombre = 'Idiot!! Get a Spanish dictionary and try again!';
                      }
                      document.getElementById("respuesta").style.color = "black";
-                     document.getElementById("respuesta").style.fontSize = "30px";
+                     document.getElementById("respuesta").style.fontSize = "40px";
                      document.getElementById("respuesta").innerHTML = nombre;
                 }
                 </script>
@@ -175,8 +192,8 @@
             <div class="container text-center">
                 <img class="santaicon wow tada infinite" data-wow-duration="20s" src="img/santa-sm.png" alt="">
                 <div class="sectionhead">
-                    <h2>Don’t miss the <span class="highlight">upcoming hot deals</span> amymore</h2>
-                    <p>Just give us your email address below, and forget it. We’ll send you every time we have something special for you. No worries, Santa never send spam mails. And you can unsubscribe anytime as well.</p>
+                    <h2>Wishing you a <span class="highlight">merry christmas</span> and a <span class="highlight">happy new year</span> !!</h2>
+
                 </div><!--SECTIONHEAD END-->
             </div><!--SUBSCRIBE CONTAINER END-->
         </div><!--OVERLAY END-->
@@ -186,9 +203,8 @@
     FOOTER
     =========================== -->
     <footer class="container text-center">
-        <h2 class="logo">Santa<span class="highlight">Go</span></h2>
-        <img class="santacap" src="img/santa_cap.png" alt="">
-        <hr>
+
+
     </footer><!--FOOTER END-->
 
     <!-- ===========================
@@ -208,13 +224,6 @@
 				<a href="">
                     <img title="" alt="" src="img/linkedin.svg" />
                     <p>Linkedin</p>
-				</a>
-			</li>
-
-			<li>
-			    <a href="">
-                    <img title="" alt="" src="img/google_plus.svg" />
-                    <p>Google Plus</p>
 				</a>
 			</li>
 
