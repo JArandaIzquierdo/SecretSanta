@@ -138,8 +138,27 @@
             <div class="sectionhead content col-md-8">
 
                 <p>Enter your password here:</p>
-                <input type="password" value="" name="PASSW" id="passw" placeholder="Password" required>
-                <input type="submit" value="Enter" name="enter" id="boton enter" class="btn btn-inverse">
+                <input type="text" value="" name="PASSW" id="passw" placeholder="Password" required>
+                <input type="submit" value="Enter" name="enter" id="botonEnter" class="btn btn-inverse" onclick="persona()">
+                <p id="respuesta">HOLAAA</p>
+                <script>
+                function persona(){
+                      var contrasenia,nombre;
+
+                      contrasenia=document.getElementById("passw").value;
+
+                      if(contrasenia == 'hola'){
+                           nombre = 'Sarah Pook';
+                     }
+                  //    else if (contrasenia == 'adios'){
+                  //          nombre = 'Javi';
+                  //    }
+                     else {
+                           nombre = 'La contraseña no es correcta';
+                     }
+                     document.getElementById("respuesta").innerHTML = nombre;
+                }
+                </script>
             </div><!--CALL-TO-ACTION CONTENT END-->
         </div><!--CALL-TO-ACTION CONTAINER END-->
     </div><!--CALL-TO-ACTION OVERLAY END-->
